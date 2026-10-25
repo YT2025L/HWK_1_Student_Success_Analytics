@@ -274,6 +274,7 @@ if uploaded_file is not None:
     )
 
     # SAME COLUMN NAMES AND ORDER AS TRAINING
+    #This creates a one-row DataFrame with the same feature names and order as the training data
     new_data = pd.DataFrame(
         [[value1, value2]],
         columns=[x1, x2]
@@ -316,10 +317,13 @@ if uploaded_file is not None:
     st.subheader("5. Business Interpretation")
 
     st.write(
-        "This model estimates numerical outcomes "
-        "to support exploratory analysis; inaccurate "
-        "predictions could lead to poor decisions "
-        "or inappropriate resource allocation."
+        "This model predicts students' exam scores based on "
+        "study hours and class attendance to help educators "
+        "identify students who may need academic support. "
+        "If the model overestimates performance, struggling "
+        "students might not receive timely assistance; "
+        "if it underestimates performance, schools might "
+        "allocate tutoring resources unnecessarily."
     )
 
     st.caption(
