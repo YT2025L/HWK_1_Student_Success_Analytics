@@ -19,15 +19,6 @@ The dataset contains 630,000 synthetically generated student records.
 - **Target:** Exam score
 - **Algorithm:** Multiple Linear Regression (Scikit-learn)
 
-## Key Features
-
-- Upload CSV files and preview data.
-- Explore data using interactive line, scatter, and histogram charts.
-- Select two numerical inputs and one prediction target.
-- Train a linear regression model and view its equation and R².
-- Enter custom values to generate predictions.
-- Display warnings for inputs outside the training range.
-
 ## Business Application
 
 The model estimates exam scores to explore academic performance patterns and potential student support needs.
@@ -36,20 +27,9 @@ The model estimates exam scores to explore academic performance patterns and pot
 - **Overprediction:** Students needing academic assistance may be overlooked.
 - **Underprediction:** Tutoring resources may be allocated unnecessarily.
 
-## Technologies
-
-Python | Pandas | Plotly | Scikit-learn | Streamlit | GitHub
-
-## Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
 ## Live Application
 
-**Streamlit:** [Add your deployed app URL here]
+**Streamlit:** https://hwk1studentsuccessanalytics-46887.streamlit.app/
 
 ## Limitations
 
