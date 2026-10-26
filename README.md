@@ -31,4 +31,4 @@ The model estimates exam scores to explore academic performance patterns and pot
 
 ## Limitations
 
-The dataset is synthetic, and the model has not been validated using real student records. Predictions are for educational purposes only and should not be used for actual academic decisions.
+The dataset is synthetic, and the model has not been validated using real student records. Predictions are for educational purposes only.
