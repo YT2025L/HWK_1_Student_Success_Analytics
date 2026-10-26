@@ -1,7 +1,5 @@
 # Student Success Analytics — Exam Score Predictor
 
-### 46-887: Machine Learning for Business Applications | HWK 1
-
 ## Project Overview
 
 An interactive **Streamlit application** that allows users to explore datasets, visualize numerical relationships, and predict student exam scores using **multiple linear regression**.
